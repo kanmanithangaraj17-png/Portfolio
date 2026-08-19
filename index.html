@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kanmani Thangaraj | Journalist & Writer</title>
+    <meta name="description" content="Portfolio of kanmani Thangaraj, journalist, writer, and storyteller.">
+    <meta name="keywords" content="Journalist, Writer, Storyteller, Portfolio, News">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- FontAwesome (for social icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- Three.js Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#home">kanmani Thangaraj.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articles">My Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-lg-3 mt-3 mt-lg-0">
+                    <a href="assets/resume/resume.pdf" download class="btn btn-primary-accent btn-sm rounded-0 fw-bold px-3 py-2">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container position-relative z-1">
+            <div class="row align-items-center">
+                <div class="col-lg-7 fade-in-up">
+                    <span class="small-label text-accent d-block mb-2 fw-bold tracking-wide">JOURNALIST • WRITER • STORYTELLER</span>
+                    <h1 class="display-1 fw-bold main-title mb-3">kanmani <br>Thangaraj</h1>
+                    <h3 class="professional-statement mb-4">"Turning stories into voices that deserve to be heard."</h3>
+                    <p class="lead text-light-gray mb-5 pe-lg-5">
+                        Award-winning investigative journalist specializing in deep-dive reporting, political analysis, and uncovering truths that shape our society.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#articles" class="btn btn-primary-accent btn-lg rounded-0 fw-bold px-4 py-3">Read My Articles</a>
+                        <a href="assets/resume/resume.pdf" download class="btn btn-outline-light btn-lg rounded-0 fw-bold px-4 py-3">Download Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block fade-in-up delay-1">
+                    <div class="hero-image-wrapper">
+                        <!-- Portrait Image (Change the URL below to update) -->
+                        <div class="hero-portrait-placeholder" style="background-image: url('assets/images/sample.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container py-5">
+            <h2 class="section-title mb-5 text-center"><span class="text-accent">/</span> About Me</h2>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5">
+                    <div class="about-image-wrapper">
+                        <!-- About Section Image (Change the URL below to update) -->
+                        <div class="about-portrait-placeholder" style="background-image: url('assets/images/sample.png');"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4 font-playfair h2">Seeking the truth through <span class="text-accent">fearless</span> storytelling.</h3>
+                    <p class="text-light-gray mb-4">
+                        I am a professional journalist with over a decade of experience in uncovering stories that matter. My work focuses on the intersection of politics, social justice, and systemic inequality. I believe in the power of words to hold power accountable and to amplify the voices of the marginalized.
+                    </p>
+                    <p class="text-light-gray mb-5">
+                        My career philosophy is simple: remain independent, ask the hard questions, and never back down from a complex story. I strive to bring clarity to chaos and context to the headlines.
+                    </p>
+                    
+                    <h4 class="mb-3 text-white text-uppercase fs-6 tracking-wide">Areas of Expertise</h4>
+                    <ul class="expertise-list list-unstyled row">
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Investigative Journalism</li>
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Political Reporting</li>
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Social Issues</li>
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Feature Writing</li>
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Digital Journalism</li>
+                        <li class="col-sm-6 mb-2"><i class="fa-solid fa-check text-accent me-2"></i> Data Analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Articles Section -->
+    <section id="articles" class="articles-section py-5 bg-darker">
+        <div class="container py-5">
+            <div class="row mb-5 align-items-end">
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-0"><span class="text-accent">/</span> Published Work</h2>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="search-wrapper">
+                        <i class="fa-solid fa-search search-icon"></i>
+                        <input type="text" id="article-search" class="form-control rounded-0 custom-search" placeholder="Search articles by title, category, keywords...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="filter-group d-flex flex-wrap gap-2" id="category-filters">
+                        <button class="btn filter-btn active" data-filter="All">All</button>
+                        <button class="btn filter-btn" data-filter="Investigation">Investigation</button>
+                        <button class="btn filter-btn" data-filter="Politics">Politics</button>
+                        <button class="btn filter-btn" data-filter="Society">Society</button>
+                        <button class="btn filter-btn" data-filter="Features">Features</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="row g-4" id="articles-container">
+                <!-- Article 1 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Investigation">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Investigation</div>
+                            <h3 class="article-title">The Silent Crisis: Uncovering the Truth About Urban Water Supply</h3>
+                            <p class="article-desc">A deep dive into the failing infrastructure of major metropolitan areas and how it disproportionately affects low-income neighborhoods.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">The Daily Chronicle</span> • <span>August 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Politics">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Politics</div>
+                            <h3 class="article-title">Behind Closed Doors: The New Political Landscape</h3>
+                            <p class="article-desc">Exclusive interviews and inside sources reveal the shifting power dynamics within the current administration ahead of the midterms.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">National Review</span> • <span>July 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Society">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Society</div>
+                            <h3 class="article-title">Voices of the Unheard: Life on the Margins</h3>
+                            <p class="article-desc">A compelling photo-essay and narrative detailing the struggles of gig economy workers fighting for basic rights and fair wages.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">Global Times</span> • <span>June 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 4 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Features">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Features</div>
+                            <h3 class="article-title">The Tech Revolution We Didn't Ask For</h3>
+                            <p class="article-desc">How unregulated AI algorithms are silently reshaping hiring practices across Fortune 500 companies.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">Tech Insight</span> • <span>May 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 5 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Investigation">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Investigation</div>
+                            <h3 class="article-title">Corruption in Plain Sight: The Zoning Board Scandal</h3>
+                            <p class="article-desc">An investigative piece exposing how millions of dollars in kickbacks were funneled through local real estate development projects.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">Metro Investigative</span> • <span>April 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 6 -->
+                <div class="col-md-6 col-lg-4 fade-in-up article-card-wrapper" data-category="Politics">
+                    <div class="article-card">
+                        <div class="article-img-wrapper">
+                            <img src="assets/images/news.png" alt="Article Image" class="article-img">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <div class="article-category">Politics</div>
+                            <h3 class="article-title">A Generation Divided</h3>
+                            <p class="article-desc">Examining the growing political polarization among youth and what it means for the future of democracy.</p>
+                            <div class="article-meta mt-auto">
+                                <span class="article-publication">The Observer</span> • <span>March 2026</span>
+                            </div>
+                            <div class="mt-4">
+                                <a href="#" class="read-btn" target="_blank">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- No Results Message -->
+            <div id="no-results" class="text-center py-5 d-none">
+                <p class="text-muted lead">No articles found matching your criteria.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container py-5">
+            <h2 class="section-title mb-5 text-center"><span class="text-accent">/</span> Experience</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="timeline" id="experience-timeline">
+                        <!-- Experience items injected via JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section py-5 bg-darker">
+        <div class="container py-5">
+            <h2 class="section-title mb-5 text-center"><span class="text-accent">/</span> Education</h2>
+            
+            <div class="row justify-content-center g-4" id="education-container">
+                <!-- Education items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title"><span class="text-accent">/</span> Get In Touch</h2>
+                    <p class="text-light-gray mt-3 max-w-600 mx-auto">Have a lead, an assignment, or want to discuss a story? Reach out below.</p>
+                </div>
+            </div>
+            
+            <div class="row g-5 justify-content-center">
+                <!-- Contact Info -->
+                <div class="col-lg-4">
+                    <div class="contact-info-card p-4 h-100">
+                        <h4 class="mb-4 text-white font-playfair">Contact Information</h4>
+                        
+                        <div class="contact-item mb-4">
+                            <span class="d-block text-accent text-uppercase small fw-bold tracking-wide mb-1">Email</span>
+                            <a href="mailto:name@example.com" class="text-white text-decoration-none fs-5 hover-accent transition-all">kanmani@gmail.com</a>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <span class="d-block text-accent text-uppercase small fw-bold tracking-wide mb-1">LinkedIn</span>
+                            <a href="#" target="_blank" class="text-white text-decoration-none fs-5 hover-accent transition-all">linkedin.com/in/kanmani</a>
+                        </div>
+                        
+                        <div class="contact-item mb-4">
+                            <span class="d-block text-accent text-uppercase small fw-bold tracking-wide mb-1">X / Twitter</span>
+                            <a href="#" target="_blank" class="text-white text-decoration-none fs-5 hover-accent transition-all">@kanmani_</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <span class="d-block text-accent text-uppercase small fw-bold tracking-wide mb-1">Instagram</span>
+                            <a href="#" target="_blank" class="text-white text-decoration-none fs-5 hover-accent transition-all">@kanmani.writes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact-form-wrapper p-4">
+                        <form id="contact-form">
+                            <div class="mb-4">
+                                <label for="name" class="form-label text-uppercase small fw-bold text-light-gray">Name</label>
+                                <input type="text" class="form-control custom-input rounded-0" id="name" placeholder="e.g. kanmani" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label text-uppercase small fw-bold text-light-gray">Email</label>
+                                <input type="email" class="form-control custom-input rounded-0" id="email" placeholder="e.g. kanmani@gmail.com" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="form-label text-uppercase small fw-bold text-light-gray">Subject</label>
+                                <input type="text" class="form-control custom-input rounded-0" id="subject" placeholder="e.g. Interview Request" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label text-uppercase small fw-bold text-light-gray">Message</label>
+                                <textarea class="form-control custom-input rounded-0" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary-accent rounded-0 fw-bold px-4 py-3 w-100">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-3 border-top border-dark">
+        <div class="container text-center">
+            <h3 class="text-uppercase fw-bold mb-1 text-white fs-5">kanmani Thangaraj</h3>
+            <p class="text-accent tracking-wide small mb-3" style="font-size: 0.8rem;">JOURNALIST • WRITER • STORYTELLER</p>
+            
+            <!-- <div class="social-icons mb-4">
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:name@example.com" class="social-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div> -->
+            
+            <div class="footer-links mb-4">
+                <a href="#home" class="text-light-gray text-decoration-none mx-2 hover-accent transition-all">Home</a>
+                <a href="#about" class="text-light-gray text-decoration-none mx-2 hover-accent transition-all">About</a>
+                <a href="#articles" class="text-light-gray text-decoration-none mx-2 hover-accent transition-all">Articles</a>
+                <a href="assets/resume/resume.pdf" class="text-light-gray text-decoration-none mx-2 hover-accent transition-all" download>Resume</a>
+            </div>
+            
+            <p class="text-white small mb-0">&copy; <span id="current-year"></span> kanmani Thangaraj. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
