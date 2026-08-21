@@ -193,7 +193,8 @@ section {
     position: relative;
     box-shadow: -15px 15px 0px 0px rgba(230,57,70,0.1);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 /* About Section */
@@ -204,7 +205,8 @@ section {
     border: 1px solid var(--border-color);
     box-shadow: 15px 15px 0px 0px rgba(255,255,255,0.05);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .expertise-list li {

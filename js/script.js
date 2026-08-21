@@ -5,28 +5,40 @@ document.addEventListener('DOMContentLoaded', () => {
     // -----------------------------------------
     const experience = [
         {
-            year: "2024 - Present",
-            role: "Senior Investigative Journalist",
-            organization: "The Daily Chronicle",
-            description: "Leading a team of reporters to uncover systemic corruption in local government. Recipient of the National Journalism Award for Investigative Reporting."
+            year: "2025 - Present",
+            role: "Assistant News Editor",
+            organization: "Doordarshan Kendra Chennai",
+            description: "In this role, I handle the entire news bulletin workflow, including editorial planning, script editing and English–Tamil translation. I also contribute to the organisation's digital and social media content, ensuring timely and engaging news delivery across platforms. My work extends beyond state-level coverage, with a strong focus on Central Government policies and initiatives, national affairs, international news, sports, and other major news beats. I also produce news packages and special reports, enabling me to combine editorial judgment, storytelling, translation, and broadcast production. This role has strengthened my ability to work in a dynamic national newsroom while maintaining the highest standards of accuracy, impartiality, and public service journalism."
         },
         {
-            year: "2021 - 2024",
-            role: "Political Correspondent",
-            organization: "National Review",
-            description: "Covered the White House and Capitol Hill, breaking several major stories regarding legislative policy shifts and election campaigns."
+            year: "2025",
+            role: "Senior Sub Editor & Tamil Content Writer",
+            organization: "Vasanth News",
+            description: "Joined Vasanth News as a Senior Sub Editor and Tamil Content Writer, gaining well-rounded experience across television and digital media. Responsible for news bulletin handling, editorial coordination, and creating engaging content for social media. Balancing broadcast journalism with digital content production strengthened adaptability and multitasking. Contributed as a voice-over artist, expanding expertise in news presentation and broadcast communication."
         },
         {
-            year: "2018 - 2021",
-            role: "Staff Writer",
-            organization: "Global Times",
-            description: "Wrote feature articles focusing on social justice, immigration, and community issues. Consistently ranked among the top 5 most-read writers."
+            year: "2025",
+            role: "News Sub Editor",
+            organization: "News 7 Tamil",
+            description: "Joining News 7 Tamil gave me a completely different perspective on journalism through the fast-paced world of 24×7 television news. The newsroom environment strengthened my ability to work under pressure, deliver breaking news with speed and accuracy, and meet strict editorial deadlines. Gained valuable experience in news reporting, editorial operations, script editing, and live news production, enhancing decision-making, newsroom coordination, and understanding of broadcast journalism."
         },
         {
-            year: "2016 - 2018",
-            role: "Journalism Intern / Junior Reporter",
-            organization: "Metro News",
-            description: "Started as an intern and quickly promoted to Junior Reporter. Covered local city council meetings, crime beats, and community events."
+            year: "2024",
+            role: "Freelance Tamil Content Writer",
+            organization: "Kalki Group, Chennai",
+            description: "Produced a wide range of content across multiple genres, including human-interest stories, cinema features, news articles, and in-depth feature stories for a six-month assignment. The opportunity allowed me to adapt writing to different audiences and editorial styles, significantly enhancing creativity, versatility, and storytelling skills. Strengthened ability to produce engaging, high-quality content within tight deadlines."
+        },
+        {
+            year: "2023–2024",
+            role: "Journalist & Tamil Content Writer",
+            organization: "Dinathanthi",
+            description: "Gained invaluable newsroom and field reporting experience. Published numerous feature articles, travelled extensively across Tamil Nadu, and interacted with people from diverse communities. Reporting on a wide range of beats—including politics, environment, health, and investigative stories—broadened perspective and enhanced ability to tell impactful stories with accuracy, depth, and responsibility."
+        },
+        {
+            year: "2023",
+            role: "Intern & Tamil Content Writer",
+            organization: "Theekkathir Newspaper, Madurai",
+            description: "Completed a one-month internship gaining hands-on experience in news reporting, with a strong focus on rural reporting and community-based journalism. Worked as a Tamil Content Writer, researching and publishing feature articles on social issues and stories that deserved public attention. This experience strengthened reporting, interviewing, and storytelling skills while reinforcing commitment to journalism that gives a voice to underrepresented communities."
         }
     ];
 
@@ -166,7 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = document.getElementById('message').value;
         
         // Target email address
-        const toEmail = 'name@example.com';
+        const toEmail = 'kanmanithangaraj17@gmail.com';
         
         // Construct mailto URL
         const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message.replace(/\n/g, '%0D%0A')}`;
