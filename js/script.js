@@ -44,16 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const education = [
         {
-            year: "2014 - 2016",
-            degree: "Master of Science in Journalism",
-            institution: "Columbia University Graduate School of Journalism",
-            major: "Investigative Reporting Focus"
+            year: "2023 - 2025",
+            degree: "MA - Journalism",
+            institution: "Madras University",
+            major: "Journalism"
         },
         {
-            year: "2010 - 2014",
-            degree: "Bachelor of Arts in Political Science",
-            institution: "University of California, Berkeley",
-            major: "Minor in English Literature"
+            year: "2020 - 2023",
+            degree: "BA - Journalism & Mass Communication",
+            institution: "Fatima College, Madurai",
+            major: "Journalism & Mass Communication"
         }
     ];
 
